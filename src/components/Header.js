@@ -13,8 +13,8 @@ const Header = () => {
             className="logo-header"
           />
         </Link>
-        <Link to="/sign-in" className="main-nav-sign-in">
-          <i className="fa-solid fa-user-circle"></i>
+        <Link to="/login" className="main-nav-sign-in">
+          <i className="fa fa-user-circle"></i>
           <p>Sign In</p>
         </Link>
       </nav>

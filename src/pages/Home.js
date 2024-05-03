@@ -7,7 +7,7 @@ import "../styles/main.css";
 
 const Home = () => {
   return (
-    <div>
+    <main>
       <Banner />
       <div className="container-main">
         <Item
@@ -32,7 +32,7 @@ const Home = () => {
           }
         />
       </div>
-    </div>
+    </main>
   );
 };
 
