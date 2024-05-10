@@ -166,3 +166,33 @@ body {
     background-color: #00bc77;
     color: #fff;
   }
+
+.container-user {
+    background-color: rgb(218, 226, 231);
+}
+
+.btn-actions {
+    padding: 4px 30px;
+    background-color: white;
+    border: 1px solid rgb(110, 81, 243);
+    color: rgb(110, 81, 243);
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 14;
+    cursor: pointer;
+}
+
+.input-name {
+    height: 30px;
+}
+
+.transaction-button {
+    display: block;
+    padding: 8px 14px;
+    background: rgb(110, 81, 243);
+    color: white;
+    border-radius: 4px;
+    border: transparent;
+    font-weight: 500;
+    cursor: pointer;
+}
