@@ -1,22 +1,25 @@
+import React from "react";
 import { Link } from "react-router-dom";
-import logoArgentBank from "../assets/img/argentBankLogo.png";
-import "../styles/main.css";
+import argentBankLogo from "../assets/img/argentBankLogo.png";
+import LogOut from "./LogOut";
+import LogIn from "./LogIn";
 
 const Header = () => {
   return (
     <header>
       <nav className="main-nav">
-        <Link to="/">
+        <Link className="main-nav-logo" to="/">
           <img
-            src={logoArgentBank}
-            alt="argentbanklogo"
-            className="logo-header"
+            className="main-nav-logo-image"
+            src={argentBankLogo}
+            alt="Argent Bank Logo"
           />
+          <h1 className="sr-only">Argent Bank</h1>
         </Link>
-        <Link to="/login" className="main-nav-sign-in">
-          <i className="fa fa-user-circle"></i>
-          <p>Sign In</p>
-        </Link>
+        <div>
+          <LogIn />
+          <LogOut />
+        </div>
       </nav>
     </header>
   );
